@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
-
+//The thing!
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
